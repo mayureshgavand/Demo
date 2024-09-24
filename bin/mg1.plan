@@ -6,7 +6,7 @@
 	</component-mappings>
 
 <!-- (Filter) --><step mode="NORMAL" className="com.ataccama.dqc.tasks.conditions.Filter" disabled="false" id="Filter">
-		<properties condition="src_province = &#39;ON&#39;"/>
+		<properties condition="src_province = &#39;BC&#39;"/>
 		<visual-constraints layout="vertical" bounds="96,216,-1,-1"/>
 	</step>
 	<connection className="com.ataccama.dqc.model.elements.connections.StandardFlowConnection" disabled="false">
@@ -20,8 +20,8 @@
 
 
 <!-- (Filter 2) --><step mode="NORMAL" className="com.ataccama.dqc.tasks.conditions.Filter" disabled="false" id="Filter 2">
-		<properties condition="src_province = &#39;BC&#39;"/>
-		<visual-constraints layout="vertical" bounds="384,192,-1,-1"/>
+		<properties condition="src_province = &#39;ON&#39;"/>
+		<visual-constraints layout="vertical" bounds="384,216,-1,-1"/>
 	</step>
 	<connection className="com.ataccama.dqc.model.elements.connections.StandardFlowConnection" disabled="false">
 		<source endpoint="out" step="Filter 2"/>
